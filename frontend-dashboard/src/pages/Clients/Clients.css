@@ -1,0 +1,10 @@
+.head-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    }

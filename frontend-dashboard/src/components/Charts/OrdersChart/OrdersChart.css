@@ -1,0 +1,15 @@
+.chart-title {
+  font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: #000000;
+}
+
+.chart-total {
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-align: right;
+color: #000000;
+}

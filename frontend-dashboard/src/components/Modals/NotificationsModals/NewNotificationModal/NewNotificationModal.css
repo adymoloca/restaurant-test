@@ -1,0 +1,204 @@
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  border-radius: .3rem;
+  outline: 0;
+  background-color: #F2F2F2;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.status-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  align-items: center;
+  color: #000000;
+}
+
+.modal-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.modal-body-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.modal-body-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  color: #494949;
+  margin-bottom: 17px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid transparent !important;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px);
+}
+
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end !important;
+  padding: .75rem;
+  border-top: 1px solid transparent !important;
+  border-bottom-right-radius: calc(.3rem - 1px);
+  border-bottom-left-radius: calc(.3rem - 1px);
+}
+
+.profile-password-button {
+  border: 1px solid #B5B268 !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 10px 20px rgba(181, 178, 104, 0.15) !important;
+  border-radius: 10px !important;
+  cursor: pointer;
+  padding: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile-button {
+  background: #413E38;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 12px;
+  padding-left: 48px;
+  padding-right: 48px;
+  cursor: pointer;
+}
+
+.profile-button-delete {
+  color: #B5B268;
+  padding: 12px;
+  padding-left: 48px;
+  padding-right: 48px;
+  cursor: pointer;
+  border: 1px solid #B5B268;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(181, 178, 104, 0.15);
+  border-radius: 10px;
+}
+
+.col-lg {
+  position: relative;
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+.logo-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  text-align: -webkit-center;
+  margin-bottom: 17px;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-top: 0.4rem;
+}
+
+.select-category {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 250px;
+  height: 40px;
+  border: none;
+  background-color: #FAFAFA;
+  box-shadow: inset 0px -2px 4px rgba(157, 157, 157, 0.15);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #494949;
+}
+
+.option-category {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  border: transparent;
+  border-color: transparent;
+}
+
+.principal-input {
+  border: none;
+  background-color: #FAFAFA !important;
+  box-shadow: inset 0px -2px 4px rgba(157, 157, 157, 0.15);
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.secondary-input {
+  border: none;
+  background-color: #FAFAFA !important;
+  box-shadow: inset 0px -2px 4px rgba(157, 157, 157, 0.15);
+  border-radius: 10px;
+  width: 49px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.location-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #CFCFCD;
+}
+
+.location-text-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #CFCFCD;
+}
+
+.choice-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #000000;
+
+}
